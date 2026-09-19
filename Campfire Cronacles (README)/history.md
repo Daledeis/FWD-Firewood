@@ -15,6 +15,8 @@ As for right now, I plan down below to gather all infos and make an action plan 
 to proceed and what to aim for in order. 
 I could divide it in phases based on how topics are structured and what courses offers. This is my first public personal project so I'm learning about how. to plan things and probably make some mistakes, but hey... what doesn't kill you makes you stronger ;)
 
+For planning the journey I'm getting some help from AI, though I wanna make clear that everything below has been handwritted and analyzed by me. I wanna use it as a tool, not as something to replace my work. It can be better than me at finding sources and compare reviews, so I'm using it for this task, but it won't replace my work or my learning!
+
 (Phase x: what I should learn                   [anticipated plans on what to do are written here!]       )
 
 Phase 0: Envrionment + Web Fundamentals         [preparing this repo and everything useful]
@@ -29,3 +31,6 @@ Phase 7: WebRTC + WebAudio                      [the end of the main journey and
 Phase 8: Security + Performance                 [production-hardened app]
 Phase 9: Rust (optional, we'll see about that)  [simple rust web API / learn what Rust is used for now]
 
+
+### Phase 0: Envrionment + Web Fundamentals
+goal: set up the development envrionment 
