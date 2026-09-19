@@ -33,4 +33,53 @@ Phase 9: Rust (optional, we'll see about that)  [simple rust web API / learn wha
 
 
 ### Phase 0: Envrionment + Web Fundamentals
-goal: set up the development envrionment 
+This is the starting phase, spent settings things up and uderstanding how 
+- goal: setting up the development envrionment and understanding the basics of web development
+
+Sources:
+1. MDN - How does the internet work? [ https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work ]
+2. MDN - Getting started with the web [ https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web ]
+3. Odin project pre-requisites (it's the second section) [ https://www.theodinproject.com/paths/foundations ]
+4. Namecheap free domain (I'll just save it here cause GitHub students' pack offers one year for free) [ https://nc.me/ ]
+
+Exit Criteria:
+* explain what happens when you type an URl and press enter
+* have set up VScode (I'm on gnu linux so CodeOSS) with proper extensions and know how to use Git. (For specific extension I'll keep a record laater on)
+* know how to navigate trough files using a terminal (I already do luckily but if you're a beginner you should take some CS basics knowedge first)
+
+### Phase 1: HTML + CSS
+And now we can get started with the frontend! :D
+- Semathic HTML structure
+- CSS fundamentals
+- Flexbox and CSS Grid for layout
+- responsive design (media queries, fluid units, responsive images)
+- basic accessibility (semantic tags, ARIA basics, contrast)
+- CSS organization (custom properties, modern practices)
+
+Sources:
+1. Scrimba for learning HTML and CSS for free [ https://scrimba.com/learn-html-and-css-c0p ]
+    * complete all modules and there should be about 5 projects
+2. web.dev for keeping up with html and media insertion
+    * this is more of a theory first course compared to Scrimba's hands on intro
+    * this is Google's HTMl course which covers HTML, accessibility, forms, media and modern HTML features
+3. web.dev for learning CSS [ https://web.dev/learn/css ]
+    * it should be the most comprehensive modern CSS course avayable
+    * complete all modules with focus on: box models, flexbox, grid, responsive design, custom properties (grid layout and flexbox are the most important topics)
+4. The Odin Project [ https://www.theodinproject.com/paths/foundations ]
+    * sections "HTML Foundations", "CSS Foundations" and "Flexbox"
+    * TOP has great project description and forces to build without hand-holding
+5. In case of confusion there are two additional reference source I found:
+    * MDN CSS Styling basics [ https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics ]
+    * MDN CSS Grid Layout guide [ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout ]
+
+exit Criteria:
+- build a complete responsive web page from scratch (without using any framework, and not just because I don't know any framework for now)
+- explain the CSS box model, cascade and specificity
+- use Flexbox and Grid confidently for any layout
+- use responsive images
+- create a semantic, accessible HTML and be able to deploy a static webpage to GitHub Pages
+- being able to read and uderstand most CSS code even if it's not written by yourself
+- have a customized GitHub profile README (I saw some of my friend with very cool front pages so I wanna be able to do it myself, understood Archi?)
+
+### Phase 2: JavaScript Foundation
+Now it's time to understand deeply as a language, learning variables, functions, objects, arrays, closures and asyncronous programming.
