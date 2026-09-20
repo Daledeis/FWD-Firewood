@@ -83,3 +83,131 @@ exit Criteria:
 
 ### Phase 2: JavaScript Foundation
 Now it's time to understand deeply as a language, learning variables, functions, objects, arrays, closures and asyncronous programming.
+- Javascript syntax and fundamentals
+- functions, closures, scope
+- objects, prototypes, classes
+- arrays and arrays methods
+- Asyncronous Javascript (callbacks, promises, async/await)
+- Error handling
+- Modern ES6+ features (destructing, modules)
+
+Sources:
+1. JavaScript.info for beginning to learn the language [ https://javascript.info/ ]
+    * complete all Part 1 ("The JavaScript Language")
+2. Scrimba's javascript course [ https://scrimba.com/learn-javascript-c0v ]
+    * complete all modules for working on projects while learning
+3. web.dev's javascript course [ https://web.dev/learn/javascript ]
+    * this is another training option, I'll keep it here too but we'll see depending on how good i have become
+4. The Odin Project's javascript course [ https://www.theodinproject.com/paths/foundations ]
+    * another viable option for training on projects
+5. Exercism (not exorcism :P) offers some exercises too [ https://exercism.org/tracks/javascript ]
+
+exit Criteria:
+- being able to explain closures, prototypes and this in Javascript
+- write and debug javascript code
+- use async/await and promises fluently
+- manipulate the DOM
+- being able to build an interactive application in javascript
+- read and understand most javascript code I could encounter
+- have completed several projects
+
+### Phase 3: Javascript Advanced + Web APIs
+This phase, from what I am able to understand for now, will put its focus on loop, fetch, storage, history (he said it! The name of the file) and Web APIs to build complex interactive applications.
+- the event loop (miscotasks, macrotasks)
+- advanced async patterns
+- Fetch API and HTTP requests
+- web storage (local storage and session storage)
+- history API and routing
+- web workers basics
+- regular expressions
+- JavaScript design patterns
+- Error handling best practices
+- testing fundamentals
+
+Sources:
+1. Javascript.info's comeback [ https://javascript.info/ ]
+    * complete part 2 ("Browser: Document, Events, Interfaces")
+    * this should be the best source for learning APIs 
+2. Codesmith hgh level course [ https://csx.codesmith.io/ ]
+    * callbacks and higher-order functions [ https://csx.codesmith.io/public/callbacks/workshop-callbacks ]
+    * closure, scope and execution context [ https://csx.codesmith.io/public/closures/workshop-closures ]
+    * object oriented programming [ https://csx.codesmith.io/ ]
+    * asynchronous javascript [ https://csx.codesmith.io/ ]
+3. MDN Javascript guide (optional addon) [ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide ]
+4. MDN additional content for useful parts:
+    * Fetch:    https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+    * Storage:  https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+    * History:  https://developer.mozilla.org/en-US/docs/Web/API/History_API
+5. The Odin Project's fullstack JavaScript path [ https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript ]
+
+exit Criteria:
+- explain the JavaScript event loop (microtasks vs macrotasks, how the browser schedules)
+- use fetch API to make HTTP requests (GET, POST, PUT, DELETE) and error handling
+- build a single page application with client-site routing (History API)
+- use localstorage/sessionstorage to store data
+- debug complex JavaScript applications using DevTools
+- build a complete CRUD application in vanilla JavaScript
+
+### Phase 4: React + TypeScript modern frontend
+The goal now is to build type-safe component-based applications. This is done understanding React's mental model, hoocks, state management and ecosystem.
+- React fundamentals (components, JSX, props, state)
+- Hoocks (useState, useEffects, useContext, useReducer, useMemo, useCallback, useRef)
+- React router for navigation
+- State management (Context API, Redux (I need to learn what it is), Redux, React Query)
+- TypeScript fundamentals
+- React + TypeScript integration
+- Component testing
+- Styling approaches (CSS modules, styled-components, Tailwind(seems to be an option facultative to learn))
+- Advanced state management (Redux toolkit, React Query)
+
+! This is the part where GitHub education pack becomes very useful for advanced courses (Scrimba Pro and Frontend Masters)
+Sources:
+1. Full Stack Open [ https://fullstackopen.com/en/ ]
+    * parts 0, 1, 2 to learn everything about React
+2. Scrimba Pro (GitHub Student's Pack) [ https://scrimba.com/frontend-path-c0j ]
+    * focus on React modules (they should be: Learn React, React router, Advanced React, React Projects)
+3. Frontend Masters "complete intro to React v9" [ https://frontendmasters.com/courses/complete-react-v9/ ]
+4. Full Stack Open part 9 (TypeScript) [ https://fullstackopen.com/en/part9 ]
+5. Frontend Masters (TypeScript fundamentals) [ https://frontendmasters.com/courses/typescript-fundamentals-v4/ ]
+    * this is a deep dive into TypeScript
+6. web.dev's Learn React course [ https://web.dev/explore/react ]
+    * optimization performance taught by Google's perspective
+7. Full Stack Open part 6 (advanced state management) [ https://fullstackopen.com/en/part6 ]
+    * after having learnt basic React state, this should teach how to manage complex state in large applications
+8. (optional) The Odin Project's fullstack React path [ https://www.theodinproject.com/paths/full-stack-javascript ]
+    * this should provide more pratical projects to test skills properly
+9. (optional) Tailwind CSS [ https://frontendmasters.com/courses/complete-intro-tailwind/ ]
+    * it's a common CSS framework, btw here's the link for offical documentation https://tailwindcss.com/docs
+
+exit Criteria:
+- explain React's mental model (components, re-rendering, virtual DOM, reconciliation)
+- use all common hooks correctly (useState, useEffect, useContext, useReducer, useMemo, useCallback, useRef)
+- Build a complete Reat application with multiple routes, forms and API calls
+- Write TypeScript types for React components, props, state, and events
+- explain when and why use useEffect (and when not to)
+- Lift state up appropriately and avoid prop drilling
+- Write basic tests for React components (using React Testing Library)
+- Use Redux or React Query for complex state management
+- Build a full React + TypeScript application from scratch
+
+### Phase 5: Node.js backend + databases
+- node.js fundamentals
+- Express.js for API servers
+- REST API design principles
+- MongoDB (NoSQL) and PostgreSQL (SQL which I have already learnt at uni)
+- Authentication (JWT sessions, bcrypt)
+- API testing (Jest + Supertest)
+- Envrionment variables and configuration
+- Error handling and validation
+- Deployment
+
+Sources:
+1. Full Stack Open part 3 ("Programming a server with Node.js and Express") [ https://fullstackopen.com/en/part3 ]
+    * it should cover Node.js, Express, REST API, MongoDB, deployment, ESLint in a high quality course
+2. Full Stack Open part 4 ("Testing Express servers, user administration") [ https://fullstackopen.com/en/part4 ]
+3. Frontend Masters with API design in Node.js [ https://frontendmasters.com/courses/api-design-nodejs-v5/ ]
+    * this should cover REST API design, TypeScript-first approach, Postgres, JWT auth, integration testing, and production deployment
+4. Full Stack Open part 13 ("using relational databases") [ https://fullstackopen.com/en/part13 ]
+    * for me it's good to exercise on PostgreSQL, migrations and queries optimizations
+5. The Odin Project: Full Stack JavaScript path [https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs]
+    * this is the Node.js part, it covers Node.js, Express, MongoDB and authentication
