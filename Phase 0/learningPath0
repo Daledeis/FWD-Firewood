@@ -1,0 +1,40 @@
+[24/09]
+
+I'm staring from here: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work
+(I'll put useful things I learnt down here, if I find it oppurtune)
+
+* Internet is a way to connect computers all together and ensure that, whatever happens, they find a way to stay connected
+* the internet is a wire of different phisical form which connects devices
+* a server is a special computer connected directly to the internet and web pages are files on that servers hard drive
+* every server has an unique Internet Protocol address (IP address), such as google's 8.8.8.8, which ofter has a more human-readable name related to it, dalled "domain name"
+
+Our own computer are not connected directly to the internet though, and are called "clients".
+* clients are connected to the internet trough an ISP (Internet Service Provider)
+* connections transport informations broken in packets, smaller chunks of it (like a puzzle piece)
+* everything connected to the internet directly (such as a server) or indirectly (such as a client) have an IP address
+* everytime two connections intersect there's a piece of equipment called "router" (like the one we have at home, provided by our ISP)
+* routers direct packages around the internet helping each packet to get closer to its destination
+
+Each packet is like a piece of candy, wrapped in layers of informations:
+* the first layers is the client device private IP address
+* the client (our laptop) sends the packet to the router which adds its own IP address
+* each time the packet reaches a new router, another layer is added until it reaches the server
+* the server may andwer with another packet containing the exact same wrappings, which get unfolder by each router to send it back to the client
+(credits to Aaron Titus and Karissa Phelps for the useful video in the MDN guide https://youtu.be/7_LPdttKXPc?si=emsWYq32_58l6k4B)
+
+We said that each server has an IP address and a more human-understandable name, the domain name.
+* a DNS (Domain name Server) provides a Domain Name Service which translates, like a disctionary, each domain name into its respective IP address
+Basically the path is:
+* you open the browser and type a domain name (eg: ilikepotatoes.com)
+* the browser sends a request to the DNS server to get the corresponding IP address
+* after getting the IP address the browser forwards the request to the data center
+* datacenter sends information back and the packet goes until it reaches the home/office router
+* this router send the packet to the client device
+
+Btw it's not necessary that all packet are routed troug hthe same path: each packet can travel indipendently depending on the best route avayable at that time
+* there is a process called aknowledgment to verify all packets have reached destination
+* in case a packet gets lost it can be sent again by thge sender
+Real-life communication is a lot crowded and must be efficient.
+* protocols are different standard used to manage packets/data flow and their travel 
+* protocols set rules for data packet conversion, attachments and source/destination of the packet
+
