@@ -1,7 +1,7 @@
 [24/09]
 
 I'm staring from here: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work
-(I'll put useful things I learnt down here, if I find it oppurtune)
+(I'll put useful things I learnt down here, if I find it oppurtune) 
 
 * Internet is a way to connect computers all together and ensure that, whatever happens, they find a way to stay connected
 * the internet is a wire of different phisical form which connects devices
@@ -38,3 +38,7 @@ Real-life communication is a lot crowded and must be efficient.
 * protocols are different standard used to manage packets/data flow and their travel 
 * protocols set rules for data packet conversion, attachments and source/destination of the packet
 
+Deeper dive section:
+When two devies communicate they must be linked, either phisically or wirelessly (by using Wi-Fi, Bluetooth etc...)
+* such type of connection isn't limited to two devices but, each time one is added, more direct connections will be needed increasing exponentially
+* for this reason network switch were born! They centralized the connection into a single node, so each machine had to connect just to him
